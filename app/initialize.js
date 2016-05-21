@@ -1,10 +1,10 @@
 import {render} from 'react-dom';
 import React from 'react';
 import {Router, Route, IndexRoute, browserHistory} from 'react-router'
-import Main from 'components/main';
-import Login from 'components/login';
-import Apply from 'components/apply';
-import Verify from 'components/verify';
+import Main from 'pages/main';
+import Login from 'pages/login';
+import Apply from 'pages/apply';
+import Verify from 'pages/verify';
 
 class App extends React.Component {
   render() { return <div>{this.props.children}</div>}
