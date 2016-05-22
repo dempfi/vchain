@@ -12,7 +12,7 @@ export default class Rollover extends React.Component {
 
   render() {
     return (
-      <div className='rollover'>
+      <div className={`rollover ${this.state.show && 'open'}`}>
         <div className='rollover-title' onClick={this.toggle.bind(this)}>{this.props.title}</div>
         {this.state.show && <div className='rollover-content'>{this.props.content}</div>}
       </div>
