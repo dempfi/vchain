@@ -10,7 +10,7 @@ export default class Main extends React.Component {
         <header>Prove that you are over 18</header>
         <div className='content'>
           <Link className='button' to='/login'>Login with VCHAIN</Link>
-          <div className='divider'>OR</div>
+          <div className='divider'/>
           <Link className='button' to='/verify'>Verify your age with a document</Link>
 
           <div className='notice'>
