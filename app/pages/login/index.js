@@ -7,13 +7,18 @@ export default class Login extends React.Component {
     return (
       <div>
         <header>Log in with your VChain ID</header>
-        <div className='body'>
-          <label>Your Email</label>
-          <input type='email'/>
+        <div className='content'>
 
-          <label>Password</label>
-          <input type='password'/>
-          <a>I forgot</a>
+          <label>Your Email
+            <input type='email'/>
+            <div className='error-text'>Incorrect email format</div>
+          </label>
+
+          <label>Password
+            <input type='password'/>
+            <a className='forgot-password'>I forgot</a>
+          </label>
+
           <span className='notice'>
             The ONLY information received by PlayBoy Inc.:
             <strong>Yes or No that you are over 18</strong>
