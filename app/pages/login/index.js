@@ -16,7 +16,7 @@ export default class Login extends React.Component {
 
           <label>Password
             <input type='password'/>
-            <a className='forgot-password'>I forgot</a>
+            <a className='red-and-border forgot-password'>I forgot</a>
           </label>
 
           <span className='notice'>
@@ -27,11 +27,13 @@ export default class Login extends React.Component {
           <Rollover title='Yes, really — nothing else' content='VChain doesn’t store any of the personal information you provided, therefore there is no way for anyone to ‘hack’ or get access to it any other way using our sistem.
   That is also a reason why we can not recreate your personal ID in case you lose it.'/>
 
-          <button>Enter PlayBoy</button>
+          <button className='button'>Enter PlayBoy</button>
 
-          <Link className='link-button' to='/apply'>
-            Get a VChain ID
-          </Link>
+          <div className='get-id'>
+            <Link className='red-and-border' to='/apply'>
+              Get a VChain ID
+            </Link>
+          </div>
         </div>
       </div>
     );

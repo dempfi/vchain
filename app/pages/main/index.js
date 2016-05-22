@@ -9,9 +9,9 @@ export default class Main extends React.Component {
       <div>
         <header>Prove that you are over 18</header>
         <div className='content'>
-          <Link className='link-button' to='/login'>Login with VCHAIN</Link>
+          <Link className='button' to='/login'>Login with VCHAIN</Link>
           <div className='divider'>OR</div>
-          <Link className='link-button' to='/verify'>Verify your age with a document</Link>
+          <Link className='button' to='/verify'>Verify your age with a document</Link>
 
           <div className='notice'>
             The <strong>ONLY</strong> information received by PlayBoy Inc.:
